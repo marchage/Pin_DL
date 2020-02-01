@@ -109,8 +109,6 @@ object-curly-newline: 0 */
     const fileAndExtension = str => str.split('.').reduce((acc, val, i, arr) => (i == arr.length - 1) ? [acc[0].substring(1), val] : [[acc[0], val].join('.')], []);
     /* eslint-enable */
     
-    // not strictly needed, pinterest has hashed img src attributes which we could 
-    // use, but I felt like doing it so...
     const sha256 = async str => {
         const sb = new TextEncoder('utf-8').encode(str);
         const hb = await crypto.subtle.digest('SHA-256', sb);
