@@ -1,5 +1,3 @@
-# Download content of Pinterest automatically
+# Download content of P¡nterest automatically
 
-GreaseMonkey script using HyperApp (version 1) to download media from Pinterest.
-
-This is not the first version of this script, but an initial commit. I seem to have misplaced .git folder of this project.
+GreaseMonkey script using HyperApp (version 1) to download media from P¡nterest.
